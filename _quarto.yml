@@ -41,11 +41,13 @@ website:
     border: true
 format:
   html:
+    highlight-style: dracula # Diğerleri: monokai, pygments, github
+    code-fold: true # Uzun kodları kullanıcıların isteğine göre açıp kapatmasını sağlar.
     toc: true
     toc-location: left
     theme: 
-      light: pulse 
-      dark: superhero
+      light: flatly 
+      dark: cyborg
     css: styles.css
 
 

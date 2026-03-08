@@ -1,36 +1,40 @@
 ---
-title: "About Me"
-sidebar: false 
+title: "Hakkımda / About Me"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/onurfurkan
+    - icon: github
+      text: Github
+      href: https://github.com/onurfgg
 ---
 
-# Education
+## Eğitim / Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
+**Lisans:** Hacettepe Üniversitesi, Endüstri Mühendisliği (GNO: 3.17), 2022 - Devam Ediyor
 
-# Work Experience
+**Lise:** Abdülhamid Han Fen Lisesi (94,14/100), 2018 - 2022
 
-## Employements
+## İş Deneyimi / Work Experience
 
-1.  Not yet
+**Reklam Yöneticisi** \| Dilkur Akademi *Temmuz 2020 - Devam Ediyor* - Pazarlama stratejilerinin veri odaklı analizi ve CRM üzerinden müşteri verilerinin raporlanması. - Dönemsel talep tahminleriyle eğitim programlarının ve eğitmen çizelgelerinin optimize edilmesi.
 
-2.  Not yet
+**İŞKUR Gençlik Programı Katılımcısı** \| Hacettepe Üniversitesi Güzel Sanatlar Enstitüsü *Kasım 2025 - Devam Ediyor* - İdari süreçlerin düzenlenmesi ve akademik birimler arası operasyonel koordinasyon.
 
-## Internships
+**İŞKUR Gençlik Programı Katılımcısı** \| Hacettepe Üniversitesi Erişkin Hastanesi *Ocak 2025 - Haziran 2025* - Arşiv süreçlerinde "5S" prensipleriyle düzenleme ve büyük hacimli hasta verilerinin dijital entegrasyonu.
 
-1.  I hope good firm
+## Yetkinlikler / Competencies
 
-2.  I hope better firm
+**Yazılım & Araçlar:** İleri Excel (Pivot, Solver, VBA), AutoCAD, MS Project, Minitab.
 
-# Projects
+**Veri Analizi:** Python, SQL, R, Quarto, Git.
 
-# Competencies
+**Sertifikalar:** Six Sigma White Belt, SAP Integration Suite, Otomotiv Yaz Kampı Başarı Sertifikası.
 
-R, Quarto, Git, Python
+## Özgeçmiş / Resume
 
-# Hobbies
+Güncel özgeçmişimi aşağıdaki bağlantıdan inceleyebilir veya indirebilirsiniz:
 
-Playing chess and guitar.
-
-# Resume
-
-[Download CV](onurfurkangok_cv.pdf)
+[Özgeçmişimi İndir (PDF)](onurfurkangok_cv.pdf)
