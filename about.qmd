@@ -31,8 +31,6 @@ R, Quarto, Git, Python
 
 Playing chess and guitar.
 
-# RESUME
+# Resume
 
-```         
-[Özgeçmişimi İndirmek İçin Tıklayın (PDF)](assets/onurfurkangok_cv.pdf) 
-```
+(onurfurkangok_cv.pdf)
