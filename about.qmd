@@ -30,3 +30,9 @@ R, Quarto, Git, Python
 # Hobbies
 
 Playing chess and guitar.
+
+# RESUME
+
+```         
+[Özgeçmişimi İndirmek İçin Tıklayın (PDF)](assets/onurfurkangok_cv.pdf) 
+```
