@@ -49,7 +49,27 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.\n\n\n\n\nIn this seminar, Mustafa Gökçe Baydoğan discusses the integral role of Industrial Engineering (IE) in the field of data analytics through various real-world industrial projects. The key highlights of the talk include:\n\nTypes of Analytics: He explains the transition from descriptive and predictive analytics to prescriptive analytics, emphasizing how Operations Research (OR) and Machine Learning (ML) work together to provide actionable insights.\nCase Studies: Two major projects are detailed:\n\nPredicting lumber warping in the forest industry by treating digital images as matrices and extracting physical features like knot locations and ring orientations.\nManaging electricity consumption forecasts and imbalance costs in the energy sector.\n\nThe IE Advantage: He stresses that the strength of an Industrial Engineer lies in identifying the root cause of a problem and ensuring that models are “explainable” for business decision-makers.\nAdvice for Students: He encourages aspiring data scientists to learn by “getting their hands dirty” with real datasets rather than just watching tutorials and highlights the importance of graduate studies for specialization.\n\n\n\n\n\nQuestion: In the lumber warping prediction project, how did Mustafa Baydoğan incorporate domain-specific knowledge into the data analytics process, and why was this approach preferred over a purely data-driven (black-box) model?\nAnswer: Mustafa Baydoğan researched forestry literature to understand the physical causes of wood warping, such as knot density and the orientation of growth rings based on where the lumber was cut from the tree. He transformed digital images into matrices to extract these specific features. This approach was preferred because it made the model “explainable” (interpretability), allowing industry experts to understand why a certain piece of wood was flagged and take corrective actions before the drying process.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-selected-video-mustafa-gökçe-baydoğan---a-talk-on-data-analytics-and-industrial-engineering",
+    "href": "assignments/assignment-1.html#a-selected-video-mustafa-gökçe-baydoğan---a-talk-on-data-analytics-and-industrial-engineering",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "In this seminar, Mustafa Gökçe Baydoğan discusses the integral role of Industrial Engineering (IE) in the field of data analytics through various real-world industrial projects. The key highlights of the talk include:\n\nTypes of Analytics: He explains the transition from descriptive and predictive analytics to prescriptive analytics, emphasizing how Operations Research (OR) and Machine Learning (ML) work together to provide actionable insights.\nCase Studies: Two major projects are detailed:\n\nPredicting lumber warping in the forest industry by treating digital images as matrices and extracting physical features like knot locations and ring orientations.\nManaging electricity consumption forecasts and imbalance costs in the energy sector.\n\nThe IE Advantage: He stresses that the strength of an Industrial Engineer lies in identifying the root cause of a problem and ensuring that models are “explainable” for business decision-makers.\nAdvice for Students: He encourages aspiring data scientists to learn by “getting their hands dirty” with real datasets rather than just watching tutorials and highlights the importance of graduate studies for specialization.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b-selected-video-mustafa-gökçe-baydoğan---a-talk-on-data-analytics-and-industrial-engineering",
+    "href": "assignments/assignment-1.html#b-selected-video-mustafa-gökçe-baydoğan---a-talk-on-data-analytics-and-industrial-engineering",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Question: In the lumber warping prediction project, how did Mustafa Baydoğan incorporate domain-specific knowledge into the data analytics process, and why was this approach preferred over a purely data-driven (black-box) model?\nAnswer: Mustafa Baydoğan researched forestry literature to understand the physical causes of wood warping, such as knot density and the orientation of growth rings based on where the lumber was cut from the tree. He transformed digital images into matrices to extract these specific features. This approach was preferred because it made the model “explainable” (interpretability), allowing industry experts to understand why a certain piece of wood was flagged and take corrective actions before the drying process.",
     "crumbs": [
       "Assignment 1"
     ]
