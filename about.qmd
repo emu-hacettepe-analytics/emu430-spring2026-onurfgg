@@ -33,4 +33,4 @@ Playing chess and guitar.
 
 # Resume
 
-(onurfurkangok_cv.pdf)
+[Download CV](onurfurkangok_cv.pdf)
