@@ -1,5 +1,5 @@
 ---
-title: "Hakkımda / About Me"
+title: "About Me"
 about:
   template: jolla
   links:
@@ -11,30 +11,30 @@ about:
       href: https://github.com/onurfgg
 ---
 
-## Eğitim / Education
+## Education
 
-**Lisans:** Hacettepe Üniversitesi, Endüstri Mühendisliği (GNO: 3.17), 2022 - Devam Ediyor
+**B.S. in Industrial Engineering:** Hacettepe University (GPA: 3.17/4.00), 2022 - Present
 
-**Lise:** Abdülhamid Han Fen Lisesi (94,14/100), 2018 - 2022
+**High School:** Abdülhamid Han Science High School (Grade: 94.14/100), 2018 - 2022
 
-## İş Deneyimi / Work Experience
+## Work Experience
 
-**Reklam Yöneticisi** \| Dilkur Akademi *Temmuz 2020 - Devam Ediyor* - Pazarlama stratejilerinin veri odaklı analizi ve CRM üzerinden müşteri verilerinin raporlanması. - Dönemsel talep tahminleriyle eğitim programlarının ve eğitmen çizelgelerinin optimize edilmesi.
+**Advertising Manager** \| Dilkur Academy *July 2020 - Present* - Data-driven analysis of marketing strategies and customer data reporting via CRM. - Optimization of educational programs and instructor schedules using seasonal demand forecasting.
 
-**İŞKUR Gençlik Programı Katılımcısı** \| Hacettepe Üniversitesi Güzel Sanatlar Enstitüsü *Kasım 2025 - Devam Ediyor* - İdari süreçlerin düzenlenmesi ve akademik birimler arası operasyonel koordinasyon.
+**İŞKUR Youth Program Participant** \| Hacettepe University Institute of Fine Arts *November 2025 - Present* - Management of administrative processes and operational coordination between academic units.
 
-**İŞKUR Gençlik Programı Katılımcısı** \| Hacettepe Üniversitesi Erişkin Hastanesi *Ocak 2025 - Haziran 2025* - Arşiv süreçlerinde "5S" prensipleriyle düzenleme ve büyük hacimli hasta verilerinin dijital entegrasyonu.
+**İŞKUR Youth Program Participant** \| Hacettepe University Adult Hospital *January 2025 - June 2025* - Archive organization using "5S" principles and digital integration of large-scale patient data.
 
-## Yetkinlikler / Competencies
+## Competencies
 
-**Yazılım & Araçlar:** İleri Excel (Pivot, Solver, VBA), AutoCAD, MS Project, Minitab.
+**Software & Tools:** Advanced Excel (Pivot, Solver, VBA), AutoCAD, MS Project, Minitab.
 
-**Veri Analizi:** Python, SQL, R, Quarto, Git.
+**Data Analytics:** Python, SQL, R, Quarto, Git.
 
-**Sertifikalar:** Six Sigma White Belt, SAP Integration Suite, Otomotiv Yaz Kampı Başarı Sertifikası.
+**Certifications:** Six Sigma White Belt, SAP Integration Suite, Automotive Summer Camp Certificate of Success.
 
-## Özgeçmiş / Resume
+## Resume
 
-Güncel özgeçmişimi aşağıdaki bağlantıdan inceleyebilir veya indirebilirsiniz:
+You can review or download my up-to-date resume via the link below:
 
-[Özgeçmişimi İndir (PDF)](onurfurkangok_cv.pdf)
+[Download My Resume (PDF)](onurfurkangok_cv.pdf)
