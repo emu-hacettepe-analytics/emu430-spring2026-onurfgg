@@ -33,36 +33,32 @@ In this seminar, Mustafa Gökçe Baydoğan discusses the integral role of Indust
 ```{r}
 #| echo: true
 
-# Gerekli paketi yükle ve veriyi çağır
 library(dslabs)
 data("polls_us_election_2016")
 
-# Kendi bilgilerini tanımla
 my_first <- "Onur Furkan"
 my_birth_year <- 2004
-# k değerini hesapla
+
 k <- (nchar(my_first) + my_birth_year) %% 15 + 8
 print(paste("Hesaplanan k değeri:", k))
 
-# k çiftse ilk k satırı, tekse son k satırı göster
 if (k %% 2 == 0) {
   head(polls_us_election_2016, k)
 } else {
   tail(polls_us_election_2016, k)
 }
 
-# Tüm veri setindeki toplam NA sayısı
+
 total_na <- sum(is.na(polls_us_election_2016))
 print(paste("Toplam NA sayısı:", total_na))
 
-# Sütun başına NA sayılarını bul ve en büyük 8 tanesini sırala
+
 na_counts <- colSums(is.na(polls_us_election_2016))
 sort(na_counts, decreasing = TRUE)[1:8]
 
-# Orijinal veriyi kopyala
 new_data <- polls_us_election_2016
 
-# Sayısal sütunlardaki NA'ları (Doğum Yılı + k) ile doldur
+
 new_data[] <- lapply(new_data, function(x) {
   if(is.numeric(x)) {
     x[is.na(x)] <- my_birth_year + k
@@ -70,25 +66,33 @@ new_data[] <- lapply(new_data, function(x) {
   return(x)
 })
 
-# Karakter/Faktör sütunlardaki NA'ları (İsim_k) ile doldur
 new_data[] <- lapply(new_data, function(x) {
   if(is.character(x) | is.factor(x)) {
-    x <- as.character(x) # Faktörleri karakter yapalım ki metin ekleyebilelim
+    x <- as.character(x) 
     x[is.na(x)] <- paste0(my_first, "_", k)
   }
   return(x)
 })
 
-# 1. Yeni veri çerçevesinde aynı kurala göre k satırı göster
+
 if (k %% 2 == 0) {
   head(new_data, k)
 } else {
   tail(new_data, k)
 }
 
-# 2. Yeni veride kalan toplam NA sayısı (0 çıkmalı)
 sum(is.na(new_data))
 
-# 3. Doğrulama testi (FALSE dönmeli)
+
 anyNA(new_data)
 ```
+
+------------------------------------------------------------------------
+
+### Notes on Methodology
+
+This assignment was prepared by integrating human intelligence (HI) with AI-assisted research tools. The video analysis in Part (a) and (b) was synthesized using AI to provide a concise English summary, while the technical R scripts in Part 4 were developed to meet specific logical constraints.
+
+**Verification:** All AI-generated outputs, including calculations (e.g., the value of $k=13$) and data transformations, have been manually audited and verified for accuracy to ensure they align with the course requirements.
+
+**Prompts used for generation:** 1. "Synthesize a professional summary and quiz questions from the provided video transcript in English." 2. "Develop an R script for data cleaning and NA replacement based on user-defined variables and logical conditions."
