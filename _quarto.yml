@@ -3,53 +3,81 @@ project:
   output-dir: docs
 
 website:
-  title: "Onur Furkan Gök's Analytics Lab"
+  title: "Onur Furkan Gök | Analytics Lab"
+  description: "Data Analytics Portfolio & EMU430 Coursework"
+  
   navbar:
+    pinned: true # Menüyü yukarı sabitler (Aşağı kaydırıldığında görünür kalır)
     search: true
+    background: primary
     left:
-      - text: Home
+      - text: "Home"
+        icon: house-door
         href: index.qmd
-      - text: About Me
+      - text: "About Me"
+        icon: person-badge
         href: about.qmd
-      - text: My Posts
+      - text: "My Posts"
+        icon: journal-code
         href: posts.qmd
       - text: "EMU430 Coursework"
+        icon: mortarboard-fill
         menu:
-          - text: Assignments
+          - text: "Assignments"
+            icon: file-earmark-code
             href: assignments.qmd
-          - text: Project
+          - text: "Project"
+            icon: diagram-3
             href: project.qmd
             
-    tools:
+    right:
+      - icon: github
+        href: https://github.com/onurfgg
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/onurfurkan
+        aria-label: LinkedIn
+
+  sidebar:
+    - title: "EMU430 Assignments"
+      style: "docked"
+      background: light
+      search: true
+      collapse-level: 1 # Alt menüleri düzenli bir akordeon yapar
+      contents:
+        - assignments.qmd
+        - section: "Homework Tasks"
+          contents:
+            - assignments/assignment-1.qmd
+            - assignments/assignment-2.qmd  
+
+  page-navigation: true
+  back-to-top-navigation: true
+  
+  page-footer:
+    left: "© 2026 Onur Furkan Gök"
+    center: "Hacettepe IE - EMU430 Spring" 
+    right:
       - icon: github
         href: https://github.com/onurfgg
       - icon: linkedin
         href: https://linkedin.com/in/onurfurkan
-
-  sidebar:
-    - title: "Assignments"
-      style: "docked"
-      search: true
-      contents:
-        - assignments.qmd
-        - assignments/assignment-1.qmd
-        - assignments/assignment-2.qmd  
-  page-navigation: true
-  back-to-top-navigation: true
-  page-footer:
-    center: "Hacettepe IE - EMU430 - 2026 Spring" 
     border: true
+
 format:
   html:
-    highlight-style: dracula # Diğerleri: monokai, pygments, github
-    code-fold: true # Uzun kodları kullanıcıların isteğine göre açıp kapatmasını sağlar.
-    toc: true
-    toc-location: left
     theme: 
-      light: flatly 
-      dark: cyborg
+      light: [cosmo, custom.scss] # Cosmo daha temiz ve modern bir font sunar
+      dark: [slate, custom.scss] # Cyborg yerine Slate çok daha profesyonel bir karanlık temadır
     css: styles.css
-
-
-editor: visual
-
+    toc: true
+    toc-title: "Page Contents"
+    toc-location: right # Sol tarafta sidebar olduğu için içindekiler sağda daha şık durur
+    toc-depth: 3
+    highlight-style: atom-one # Kod blokları için çok daha "hacker" duran bir renk paleti
+    code-fold: true 
+    code-copy: hover # Kod bloklarının sağ üstüne efsanevi "Kopyala" butonu ekler
+    code-tools: true # Sayfanın başına "Tüm kodları göster/gizle" menüsü ekler
+    smooth-scroll: true
+    fig-align: center
+    fig-responsive: true
