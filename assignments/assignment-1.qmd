@@ -2,8 +2,6 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
-
 My first assignment has two parts.
 
 ## (a) **Selected Video:** Mustafa Gökçe Baydoğan - A Talk on Data Analytics and Industrial Engineering

@@ -1,10 +1,71 @@
 ---
 title: "Welcome to My Analytics Lab"
-sidebar: false 
+sidebar: false
+page-layout: full
 ---
 
-Hello! My name is Onur Furkan Gök.
+<div style="min-height: 30px; margin-bottom: 15px;">
+  <span id="typewriter-text" style="font-size: 1.2rem; color: #38bdf8; font-weight: 600; letter-spacing: 1px;"></span>
+  <span style="animation: blink 1s infinite; color: #38bdf8; font-weight: bold;">|</span>
+</div>
 
-This is my personal webpage.
+<style>
+@keyframes blink { 50% { opacity: 0; } }
+</style>
 
-Please stay tuned to follow my works on data analytics, blog posts, and more.
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const text = "Industrial Engineer • Data Analyst • OR Enthusiast";
+    let i = 0;
+    function typeWriter() {
+      if (i < text.length) {
+        document.getElementById("typewriter-text").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 60);
+      }
+    }
+    setTimeout(typeWriter, 500); // Sayfa açıldıktan yarım saniye sonra başlar
+  });
+</script>
+
+Welcome! I am **Onur Furkan Gök**, an Industrial Engineering student at Hacettepe University. I focus on data-driven decision-making, optimization, and analytical modeling. This website serves as a digital laboratory for my projects and data science journey within the scope of the EMU430 Data Analytics course.
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="30%"}
+<div class="glass-card">
+  <h3><i class="bi bi-person-bounding-box"></i> About Me</h3>
+  <p>Explore my approach to data from an industrial engineering perspective, my academic background, and technical skill set.</p>
+  <a href="about.qmd" class="btn btn-outline-info">View Profile &rarr;</a>
+</div>
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="30%"}
+<div class="glass-card">
+  <h3><i class="bi bi-code-square"></i> Assignments</h3>
+  <p>Detailed data processing, visualization, and statistical analysis tasks prepared using R throughout the EMU430 course.</p>
+  <a href="assignments.qmd" class="btn btn-outline-info">Go to Tasks &rarr;</a>
+</div>
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="30%"}
+<div class="glass-card">
+  <h3><i class="bi bi-rocket-takeoff"></i> Term Project</h3>
+  <p>A comprehensive final data analytics project aimed at generating value and insights from complex datasets.</p>
+  <a href="project.qmd" class="btn btn-outline-info">Examine Project &rarr;</a>
+</div>
+:::
+
+::::
+
+<br><br>
+
+> *"Without data, you're just another person with an opinion."* — W. Edwards Deming

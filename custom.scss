@@ -1,0 +1,121 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
+
+/* --- PREMIUM TİPOGRAFİ VE ANİMASYON --- */
+body {
+  font-family: 'Inter', sans-serif !important;
+  animation: fadeInDocument 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Hacker Görünümlü Kod Blokları Fontu */
+code, .sourceCode, pre {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.85em;
+}
+
+/* Sayfa Yüklenme Animasyonu */
+@keyframes fadeInDocument {
+  0% { opacity: 0; transform: translateY(15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* --- MENÜ LİNKLERİ HOVER EFEKTİ --- */
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0; 
+  height: 2px;
+  bottom: 0; 
+  left: 50%;
+  background-color: #38bdf8;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 80%;
+}
+
+/*-- scss:defaults --*/
+$primary: #38bdf8 !default;
+
+/*-- scss:rules --*/
+
+/* --- 1. GLOBAL MOD AYARLARI --- */
+body {
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+body.quarto-dark {
+  background-color: #0f172a;
+  background-image: radial-gradient(circle at top right, #1e293b, #0f172a);
+  color: #f8fafc;
+}
+
+body.quarto-light {
+  background-color: #f8fafc;
+  background-image: radial-gradient(circle at top right, #e2e8f0, #f8fafc);
+  color: #0f172a;
+}
+
+/* --- 2. ÜST BAR (NAVBAR) - KOYU VE ŞIK TASARIM --- */
+/* Hem açık hem koyu modda üst barın koyu ve cam efektli kalmasını sağlar */
+.navbar {
+  background: rgba(15, 23, 42, 0.9) !important; 
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Üst bar yazılarını beyazda sabitliyoruz (Koyu barda görünmesi için) */
+.navbar-brand, .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #38bdf8 !important;
+}
+
+/* --- 3. ŞEFFAF YAN MENÜ (SIDEBAR) --- */
+#quarto-sidebar, .sidebar-navigation {
+  background: transparent !important;
+  border-right: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.sidebar-item-active {
+  color: #38bdf8 !important;
+  background: rgba(56, 189, 248, 0.1) !important;
+  border-left: 3px solid #38bdf8 !important;
+  font-weight: bold;
+}
+
+/* --- 4. CAM KARTLAR (GLASS CARDS) --- */
+.glass-card {
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 25px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+body.quarto-dark .glass-card {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.quarto-light .glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.glass-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(56, 189, 248, 0.5);
+  box-shadow: 0 20px 40px rgba(56, 189, 248, 0.2);
+}

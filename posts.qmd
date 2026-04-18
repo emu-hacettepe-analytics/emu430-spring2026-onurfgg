@@ -1,6 +1,59 @@
 ---
-title: "My Blog"
-sidebar: false 
+title: "Interactive Simulations & Projects 💻"
+description: "A showcase of my web-based Industrial Engineering & Operations Research models."
+sidebar: false
+page-layout: full
 ---
 
-This page is under construction.
+Welcome to my portfolio of analytical models built with modern web technologies. All projects are designed with **JavaScript, HTML5, and CSS3** to run in real-time directly in your browser.
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="30%"}
+<div class="glass-card">
+  <h3><i class="bi bi-diagram-3-fill"></i> Queueing Theory Simulator</h3>
+  <p style="font-size: 11px; color: #888; font-weight: bold; text-transform: uppercase;">Stochastic Processes</p>
+  <p>A live M/M/c model simulator using Poisson arrivals and exponential service times with real-time bottleneck tracking via Chart.js.</p>
+  <br>
+  <a href="https://github.com/onurfgg/queueing-theory-dashboard" target="_blank" class="btn btn-outline-info btn-sm"><i class="bi bi-github"></i> Repo</a>
+  <a href="https://onurfgg.github.io/queueing-theory-dashboard/" target="_blank" class="btn btn-info btn-sm" style="color: white;"><i class="bi bi-play-circle"></i> Live Demo</a>
+</div>
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="30%"}
+<div class="glass-card">
+  <h3><i class="bi bi-boxes"></i> Wagner-Whitin Optimizer</h3>
+  <p style="font-size: 11px; color: #888; font-weight: bold; text-transform: uppercase;">Dynamic Programming</p>
+  <p>An OR Decision Support System that finds the optimal ordering plan for varying demands using DP and contrasts it with EOQ models.</p>
+  <br>
+  <a href="https://github.com/onurfgg/wagner-whitin-dashboard" target="_blank" class="btn btn-outline-info btn-sm"><i class="bi bi-github"></i> Repo</a>
+  <a href="https://onurfgg.github.io/wagner-whitin-dashboard/" target="_blank" class="btn btn-info btn-sm" style="color: white;"><i class="bi bi-play-circle"></i> Live Demo</a>
+</div>
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="30%"}
+<div class="glass-card">
+  <h3><i class="bi bi-bus-front"></i> Campus Transit Sim</h3>
+  <p style="font-size: 11px; color: #888; font-weight: bold; text-transform: uppercase;">Simulation & Logistics</p>
+  <p>An interactive simulation model analyzing campus transportation flows, student mobility patterns, and logistics efficiency.</p>
+  <br>
+  <a href="https://github.com/onurfgg/campus-transportation-simulation" target="_blank" class="btn btn-outline-info btn-sm"><i class="bi bi-github"></i> Repo</a>
+  <a href="https://onurfgg.github.io/campus-transportation-simulation/" target="_blank" class="btn btn-info btn-sm" style="color: white;"><i class="bi bi-play-circle"></i> Live Demo</a>
+</div>
+:::
+
+::::
+
+<br>
+<hr style="border-color: rgba(128,128,128,0.2);">
+<div style="text-align: center; color: gray; font-size: 14px;">
+  <i>Explore my technical repositories to see the logic behind these Industrial Engineering models.</i>
+</div>
